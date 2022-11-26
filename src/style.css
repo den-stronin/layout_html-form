@@ -1,1 +1,14 @@
 /* styles go here */
+.form__fset {
+  margin-bottom: 20px;
+}
+
+.form__field {
+  display: block;
+  padding-top: 10px;
+}
+
+.form__legend + .form__field {
+  display: block;
+  padding-top: 0;
+}
